@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway&display=swap');
+
+
+body{
+    background-color: #e6f0d5ad;
+}
+
+
+/* Formatação de Textos */
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    color: #00A699;
+    font-size: 50px;
+    line-height: 10px;
+
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #3C4330;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #3c4330ce;
+    font-style: italic;
+    line-height: 27px;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: #3C4330;
+    font-size: 16px;
+}
+
+
+/* Formatação Cabelhaço */
+
+.header{
+    background-color: white;
+    margin-left: 40px;
+    margin-top: -8px;
+    margin-bottom:10px;
+    width: 90%;
+    padding: 30px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.header > p{
+    font-size:15px;
+    display:inline;
+}
+.header > img{
+    vertical-align: text-bottom;
+}
+
+/* Container (DIV PRINCIPAL) */
+
+.container { 
+    background-color: white;
+    margin-left: 40px;
+    width: 90%; 
+    padding: 30px;
+    border-radius: 20px;
+   }
+
+
+.descricao{
+    margin: 20px;
+}
+
+/* Galeria de Imagens */
+
+.galeria img{
+    height: 195px;
+    border-radius: 20px;
+
+}
+
+/* Lista Informações */
+
+.liinfos{
+    font-family: 'Montserrat', sans-serif;
+    color: #3C4330;
+    line-height: 40px;
+    list-style-type:none;
+}
+
+.liinfos>img{
+    width: 25px;
+    vertical-align: text-bottom;
+
+}
+
+/* Lista Comodidades */
+.ulcomod{
+    line-height: 6px;
+}
+
+.licomod{
+    font-family: 'Montserrat', sans-serif;
+    color: #3C4330;
+    line-height: 40px;
+    list-style-type:none;
+}
+
+.licomod>img{
+    width: 25px;
+    vertical-align: text-bottom;
+    
+}
+
+
+/* Avaliações */
+
+.rate{
+    display: inline-block;
+}
+
+.rate1{
+    width: 48%;
+    float: left;
+}
+.rate1 > img{
+    height: 70px;
+    float: left;
+}
+.rate1 > h3{
+    line-height: 0px;
+    
+}
+
+.rate2{
+    width: 48%;
+    float: right;
+    
+}
+.rate2 > img{
+    height: 70px;
+    float: left;
+}
+.rate2 > h3{
+    line-height: 0px;
+}
+
+.data{
+    font-size: 16px;
+    font-style: italic;
+    
+}
+
+/* Link fixo alugue já */
+
+.linkalugue img{
+    height: 120px;
+    position: fixed;
+    top: 0;
+    right: 5%;
+}
+.linkalugue a{
+    opacity: 55%;
+}
+.linkalugue a:hover{
+    opacity:95%;
+}
+
+
+
+
+
